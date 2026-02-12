@@ -28,6 +28,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://docker.io/redis:8.4.1-trixie docker://crpi-te1k4dfwcnb8pk13.cn-shanghai.personal.cr.aliyuncs.com/zhongchunyuan/redis:8.4.1-trixie
-         skopeo copy docker://docker.io/minio/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1 docker://crpi-te1k4dfwcnb8pk13.cn-shanghai.personal.cr.aliyuncs.com/zhongchunyuan/minio/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1
+         skopeo copy docker://docker.io/minio/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1 docker://crpi-te1k4dfwcnb8pk13.cn-shanghai.personal.cr.aliyuncs.com/zhongchunyuan/minio:RELEASE.2025-09-07T16-13-09Z-cpuv1
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称 
       # skopeo copy docker://docker.io/hslr/sun-panel:1.4.0 docker://crpi-te1k4dfwcnb8pk13.cn-shanghai.personal.cr.aliyuncs.com/zhongchunyuan/sun-panel:1.4.0
